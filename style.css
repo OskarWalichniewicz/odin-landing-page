@@ -3,6 +3,29 @@
     background-color: #1F2937;
 }
 
+.first-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* ===== */
+
 .second-section {
     background-color: white;
 }
