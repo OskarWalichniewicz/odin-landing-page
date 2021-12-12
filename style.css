@@ -163,6 +163,27 @@ body {
 
 .fourth-section {
     background-color: white;
+    padding: 30px 150px;
+}
+
+.container {
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 50px;
+    border-radius: 8px;
+}
+
+.left-column {
+    color: #F9FAF8;
+}
+
+.fourth-section .sign-up {
+    border: solid #F9FAF8;
+    color: #F9FAF8;
+    background-color: inherit;
+    border-radius: 16px;
 }
 
 /* ======================================= */
