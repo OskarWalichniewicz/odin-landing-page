@@ -189,4 +189,13 @@ body {
 /* ======================================= */
 
 .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.footer-text {
+    color: #F9FAF8;
+    font-size: 15px;
 }
