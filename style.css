@@ -6,6 +6,7 @@
 .first-section {
     display: flex;
     flex-direction: column;
+    padding: 10px 38px; /* bottom-top 10px; left-right 38px */
 }
 
 .header-logo {
@@ -13,15 +14,18 @@
     color: #F9FAF8;
 }
 
+/* Header links */
 .header a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
 }
 
+/* Header logo & Header Links */
 .header {
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* ===== */
