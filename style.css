@@ -6,7 +6,7 @@
 .first-section {
     display: flex;
     flex-direction: column;
-    padding: 10px 38px; /* bottom-top 10px; left-right 38px */
+    padding: 20px 75px; /* bottom-top 10px; left-right 38px */
 }
 
 .header-logo {
@@ -15,7 +15,8 @@
 }
 
 /* Header links */
-.header a {
+.header a,
+.left-column .subtext {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
@@ -26,18 +27,56 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    margin-bottom: 50px;
 }
 
-/* ===== */
+.first-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-container .img {
+    background-color: grey;
+    padding: 50px;
+
+    flex-basis: 70%;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.left-column .sign-up {
+    background-color: #3882F6;
+    color: white;
+
+    /* Makes button 'round' - the higher px, the more 'round' it is*/
+    border-radius: 16px;
+}
+
+/* ======================================= */
 
 .second-section {
     background-color: white;
 }
 
+/* ======================================= */
+
 .third-section {
     background-color: #E5E7EB;
 }
 
+/* ======================================= */
+
 .fourth-section {
     background-color: white;
+}
+
+/* ======================================= */
+
+.footer {
 }
